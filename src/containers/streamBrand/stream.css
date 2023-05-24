@@ -1,0 +1,29 @@
+.stream-brand-container {
+  position: relative;
+  width: 1333px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stream-brand-arrow-next {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 72px 20px;
+  gap: 10px;
+
+  position: absolute;
+  width: 167px;
+  height: 88px;
+  right: 0;
+
+  background: linear-gradient(
+    269.96deg,
+    #0d0c0f 18.88%,
+    rgba(13, 12, 15, 0) 99.97%,
+    #0d0c0f 99.97%
+  );
+}

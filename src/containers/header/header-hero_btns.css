@@ -28,7 +28,6 @@
   background: #ffffff;
   backdrop-filter: blur(10px);
   border-radius: 50%;
-  cursor: pointer;
 }
 .header-hero-carousel-btn-tochka.active {
   background: #ffffff;

@@ -1,0 +1,17 @@
+.stream-brand-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 24px;
+
+  width: 177px;
+  height: 88px;
+
+  /* 900 Black */
+
+  background: #08080a;
+  border: 1px solid #0d0c0f;
+  border-radius: 16px;
+}
