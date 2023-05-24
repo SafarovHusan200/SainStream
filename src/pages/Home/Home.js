@@ -1,10 +1,13 @@
 import React from "react";
-import Header from "../../components/Header/Header";
+import "./style.css";
+import HeaderContainer from "../../containers/header/header.container";
+import HeaderHero from "../../containers/header/header-hero";
 
 function Home() {
   return (
-    <div>
-      <Header />
+    <div className="home">
+      <HeaderContainer />
+      <HeaderHero />
     </div>
   );
 }

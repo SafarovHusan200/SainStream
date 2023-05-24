@@ -1,0 +1,30 @@
+.header-hero_btn-add {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px 24px;
+  gap: 10px;
+
+  width: 180px;
+  height: 46px;
+
+  /* White */
+  background: none;
+
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.header-hero_btn-add-content {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  letter-spacing: 0.005em;
+
+  /* White */
+
+  color: #ffffff;
+}

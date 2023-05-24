@@ -4,6 +4,10 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.navbar {
+  height: 80px;
+}
+
 .logo {
   display: flex;
   justify-content: center;
@@ -31,11 +35,16 @@ body {
   list-style: none;
   color: white;
   margin-left: 20px;
+  font-weight: 400;
 }
-
+.item_list .Home {
+  font-weight: 700;
+}
 .main {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.main img {
+.main div {
   margin: 0 5px;
 }

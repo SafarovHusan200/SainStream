@@ -1,0 +1,35 @@
+.header-hero-btns {
+  margin-top: 24px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.header-hero-btn-group {
+  display: flex;
+  gap: 24px;
+}
+
+.header-hero-carousel-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.header-hero-carousel-btn-tochka {
+  width: 9px;
+  height: 9px;
+  background: #ffffff;
+  opacity: 0.3;
+
+  /* White */
+
+  background: #ffffff;
+  backdrop-filter: blur(10px);
+  border-radius: 50%;
+}
+.header-hero-carousel-btn-tochka.active {
+  background: #ffffff;
+  opacity: 1;
+}

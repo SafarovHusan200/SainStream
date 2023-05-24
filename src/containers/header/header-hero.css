@@ -1,0 +1,9 @@
+.header-hero {
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}

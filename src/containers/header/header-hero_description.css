@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;800;900&display=swap);
+
+.header-hero-description {
+  width: 42%;
+  margin-top: 8px;
+  font-family: "Rubik", sans-serif;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  letter-spacing: 0.005em;
+
+  /* White */
+
+  color: #ffffff;
+}

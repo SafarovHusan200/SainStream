@@ -1,0 +1,23 @@
+.header-buttons-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 23px;
+}
+
+.header-buttons-components__icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-buttons-components__avatar {
+  width: 56px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+}

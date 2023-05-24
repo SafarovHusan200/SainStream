@@ -6,6 +6,7 @@ import search from "../../assets/icon/search.png";
 import ball from "../../assets/icon/Icon.png";
 import user from "../../assets/icon/Image.png";
 import SainStream from "../../assets/SaintStream.png";
+import bottom from "../../assets/icon/Stroke-1.png";
 
 function Navbar() {
   return (
@@ -16,7 +17,11 @@ function Navbar() {
       </div>
       <ul className="item_list">
         {navbar.map((item) => {
-          return <li key={item.id}>{item.name}</li>;
+          return (
+            <li className={item.name} key={item.id}>
+              {item.name}
+            </li>
+          );
         })}
       </ul>
 
@@ -29,6 +34,7 @@ function Navbar() {
         </div>
         <div className="user">
           <img className="search" src={user} alt="" />
+          <img src={bottom} alt="" />
         </div>
       </main>
     </nav>

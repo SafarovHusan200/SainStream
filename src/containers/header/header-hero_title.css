@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;800;900&display=swap);
+
+.header-hero-title {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+  color: white;
+  letter-spacing: 0.005em;
+  margin-top: 24px;
+}
+.season-3 {
+  display: flex;
+  font-family: "Rubik", sans-serif;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 16px;
+  gap: 8px;
+
+  width: 86px;
+  height: 28px;
+
+  /* 800 Black */
+
+  background: #0d0c0f;
+  border-radius: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  letter-spacing: 0.005em;
+
+  /* Grayscale/Grayscale 10 */
+
+  color: #f9f9f9;
+}
